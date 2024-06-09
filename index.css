@@ -1,0 +1,131 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-size: 'poppins',sans-sarif;
+}
+
+html,body{
+  display:grid;
+  height: 100%;
+  place-items: center; 
+  background:#1abc9c;
+
+}
+
+
+.wrapper{
+    width:400px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+    
+}
+
+.title{
+    background: #318574;
+    width: 100%;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: 1.9rem;
+    font-weight:800;
+    color:#fff;
+
+}
+
+
+form{
+padding:10%;
+}
+.row{
+
+    margin-bottom:15px;
+    height:50px;
+    position:relative;
+    
+    
+
+    
+
+}
+.row input{
+    height:100%;
+    width:100%;
+    padding-left:60px;
+   outline:none;
+   border-radius:5px;
+   border:1px solid lightgrey;
+
+    
+}
+
+.row i{
+  position:absolute;
+  font-size: 25px;
+ 
+  background-color: #318574;
+  width:50px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:5px 0px 0px 5px;
+  color:#fff
+
+}
+
+
+.login{
+    padding-right:25%;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    background-color: #328373;
+    color:#fff;
+    border:5px solid #404645;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 25px;
+    
+    
+}
+.pass a{
+    text-decoration: none;
+    color:#16a085;
+}
+.pass a:hover{
+    text-decoration: underline;
+    color:red;
+
+}
+
+.login:hover{
+    background-color: #124b3f;
+}
+
+input:focus{
+    border-color: #16a085;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+}
+
+.signup{
+    text-align:center;
+    margin-top: 5px;
+    font-size: 1.05rem;
+    text-decoration: none;
+}
+.signup a{
+    text-decoration: none;
+    color:#318574;
+}
+.signup a:hover{
+    text-decoration: underline;
+    color:red;
+}
